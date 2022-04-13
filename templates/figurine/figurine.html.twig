@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+{% block title %}Figurine
+{% endblock %}
+
+{% block stylesheets %}
+
+{{ encore_entry_link_tags('figurine') }}
+
+{% endblock %}
+
+ {% block body %}
+ <main>
+    <h2 class="figurine">Jinx et figurine en poudre</h2>
+    <div class="figurine-une"></div>
+    <p>{{figurinejinx}}</p>
+ </main>
+ {% endblock %}
