@@ -43,6 +43,10 @@ body {
     font-size: 1.5rem;
 }
 
+.link {
+    width: 300px;
+}
+
 .link>a {
     padding-right: 2rem;
     text-transform: uppercase;
@@ -59,14 +63,12 @@ body {
     background-image: url("../website/img/jinx-chibis-removebg-preview.png");  
     width: 128px;
     height: 128px;
-    /* border: none; */
-
+    margin-right: 172px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     color: #E6E6E6;
-    position: absolute;
     bottom: 0;
 }

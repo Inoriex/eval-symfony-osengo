@@ -6,7 +6,7 @@
 
 .poster {
     margin-top: 5rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
 }
 
 .poster-jinx {
@@ -33,4 +33,45 @@
     width: 26rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.color-p {
+    color: #E6E6E6;
+}
+
+.fa-star {
+    color: #597BA5;
+}
+
+.fa-star-half-stroke {
+    color: #597BA5;
+}
+
+.fa-euro-sign {
+    color: #597BA5;
+}
+
+.prix {
+    margin-bottom: 2rem;
+}
+
+.bouton {
+    background-color: #597BA5;
+    border: none;
+    color: #E6E6E6;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    font-family: "arcane";
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 48px;
+    min-width: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
 }

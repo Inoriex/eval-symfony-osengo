@@ -10,7 +10,7 @@ main {
 .figurine {
     width: 500px;
     height: 400px;
-    margin-left: 20rem;
+    margin-left: 15rem;
     margin-top: 2rem;
 }
 
@@ -40,10 +40,6 @@ main {
     padding-top: 2rem;
     padding-bottom: 2rem;
 } 
-
-.stars {
-    display: flex;
-}
 
 .color-p {
     color: #E6E6E6;
