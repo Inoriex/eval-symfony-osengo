@@ -56,15 +56,17 @@ body {
 }
 
 .logo {
-    background-image: url("../website/img/jinx-chibis-removebg-preview.png");
+    background-image: url("../website/img/jinx-chibis-removebg-preview.png");  
     width: 128px;
     height: 128px;
+    /* border: none; */
 
 }
 
 footer {
     display: flex;
     justify-content: center;
-    height: 30px;
     color: #E6E6E6;
+    position: absolute;
+    bottom: 0;
 }

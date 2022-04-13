@@ -1,4 +1,29 @@
- {% extends "base.html.twig" %}
- {% block stylesheets %}
- {{ encore_entry_link_tags('poster') }}
+{% extends "base.html.twig" %}
+
+{% block title %}poster
+{% endblock %}
+
+{% block stylesheets %}
+
+{{ encore_entry_link_tags('poster') }}
+
+{% endblock %}
+
+ {% block body %}
+
+    <main>
+        <article class="container-poster">
+            <div class="poster">
+                <div class="poster-jinx"></div>
+            </div>
+            <div class="description-poster">
+            <h2 class="title-poster">Poster-jinx-arcade</h2>
+            <div><p>200 ventes 5 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> (95 avis) </p></div>
+            <p class="var-poster">{{loremjinx}}</p>
+            <p>42,50 <i class="fa-solid fa-euro-sign"></i></p>
+            </div>
+        </article>
+    </main>
+
  {% endblock %}
+

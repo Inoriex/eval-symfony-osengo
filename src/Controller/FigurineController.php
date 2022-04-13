@@ -9,14 +9,14 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class FigurineController extends AbstractController
 {
     /**
-     * @Route("/", name="figurine")
+     * @Route("/figurine", name="figurine")
      */
-    public function home(): Response
+    public function figurine(): Response
     {
         {
-        $violet= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident, sapiente magnam assumenda modi, alias doloribus error soluta consequatur ullam perferendis iste molestias fuga mollitia. Facere id corporis pariatur minus.";
+        $lorem= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident, sapiente magnam assumenda modi, alias doloribus error soluta consequatur ullam perferendis iste molestias fuga mollitia. Facere id corporis pariatur minus.";
         
-        return $this->render('figurine/figurine.html.twig', ['figurinejinx' => $violet]);
+        return $this->render('figurine/figurine.html.twig', ['loremjinx' => $lorem]);
 
     }
     }

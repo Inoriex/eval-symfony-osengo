@@ -9,10 +9,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class PosterController extends AbstractController
 {
     /**
-     * @Route("/", name="poster")
+     * @Route("/poster", name="poster")
      */
-    public function home(): Response
+    public function poster(): Response
     {
-        return $this->render('home/home.html.twig');
+         {
+        $lorem= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident, sapiente magnam assumenda modi, alias doloribus error soluta consequatur ullam perferendis iste molestias fuga mollitia. Facere id corporis pariatur minus.";
+        
+        return $this->render('poster/poster.html.twig', ['loremjinx' => $lorem]);
+
+    }
     }
 }

@@ -1,4 +1,5 @@
 {% extends "base.html.twig" %}
+
 {% block title %}Figurine
 {% endblock %}
 
@@ -10,8 +11,20 @@
 
  {% block body %}
  <main>
-    <h2 class="figurine">Jinx et figurine en poudre</h2>
+    <article class="container-figure-une">
+    <div class="figurine">
     <div class="figurine-une"></div>
-    <p>{{figurinejinx}}</p>
+    </div>
+    <div class="description">
+    <h2 class="title-figurine">Jinx figurine en poudre</h2>
+    <div class="stars"><p class="color-p">77 ventes  <span class="color-p">4.5</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> (11 avis)</p></div>
+    <p class="var color-p">{{loremjinx}}</p>
+    <p class="color-p prix">42,50 <i class="fa-solid fa-euro-sign"></i></p>
+    <button class="bouton">Ajouter au panier</button>
+    </div>
+
+    
+
+    </article>
  </main>
  {% endblock %}
