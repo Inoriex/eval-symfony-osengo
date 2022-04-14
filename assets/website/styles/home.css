@@ -1,0 +1,36 @@
+.jinx-imj {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.jinx {
+    background-image: url("../img/img-jinx.webp");
+    width: 750px;
+    height: 400px;
+    background-size: cover;
+}
+
+.title-jinx {
+    color: #E6E6E6;
+    font-family: "arcane";
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.lore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.color-p {
+    color: #E6E6E6;
+}
+
+.largeur {
+    width: 26rem;
+    margin-bottom: 2rem;
+}

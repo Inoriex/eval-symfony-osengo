@@ -13,7 +13,7 @@ class PosterController extends AbstractController
      */
     public function poster(): Response
     {
-         {
+    {
         $lorem= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident, sapiente magnam assumenda modi, alias doloribus error soluta consequatur ullam perferendis iste molestias fuga mollitia. Facere id corporis pariatur minus.";
         
         return $this->render('poster/poster.html.twig', ['loremjinx' => $lorem]);
