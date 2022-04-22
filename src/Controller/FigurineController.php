@@ -13,11 +13,13 @@ class FigurineController extends AbstractController
      */
     public function figurine(): Response
     {
-        {
+        
         $lorem= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident, sapiente magnam assumenda modi, alias doloribus error soluta consequatur ullam perferendis iste molestias fuga mollitia. Facere id corporis pariatur minus.";
         
-        return $this->render('figurine/figurine.html.twig', ['loremjinx' => $lorem]);
+        return $this->render('figurine/figurine.html.twig', [
+            'loremjinx' => $lorem
+        ]);
 
-    }
+    
     }
 }
